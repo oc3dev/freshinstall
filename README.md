@@ -1,8 +1,7 @@
-# freshinstall
-a bash script to automatically install essentials
+# freshinstall.sh
+freshinstall is a bash script which will install the system essentials on a brand new system.
+it will automatically add the ppa's and start installing the correct software.
 
-# how does it work
-it runs a bunch of install commands for important programs
-
-# how do i know it's not a virus or troll script
-check the source code and modify it if you want
+# what does it work on?
+it only works on debian systems at the moment.
+i will make scripts for different distros once i have finished this script.
