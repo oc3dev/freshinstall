@@ -47,14 +47,9 @@ apt-get --no-install-recommends --no-install-suggests install chromium-browser \
 firefox xchat filezilla claws-mail
 
 clear && sleep 3 && echo "Software has been installed, we will now upgrade your system." && sleep 3
-
-finish
-
-finish() {
-
 apt-get upgrade -y
 apt-get dist-upgrade -y
 
 clear && sleep 3 && echo "That's it folks. The script will now exit." && sleep 3
 
-exit
+}
